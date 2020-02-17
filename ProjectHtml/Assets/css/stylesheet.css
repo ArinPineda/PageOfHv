@@ -1,0 +1,133 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#heroe h1,h2{
+    color: green;
+    
+}
+
+#titleName{
+    font-size: 100px;
+    margin: 0;
+    padding: 0;
+}
+#heroe{
+
+    float: left;
+   width: 60%;
+   margin: 0px;
+   padding: 0px;
+  
+}
+.imageOfSixPoints{
+ width: 50%;
+}
+
+#workExperience h1,h2{
+    color: blue;
+}
+#titlteExperienceWork{
+    color: green;
+}
+#skills{
+ padding: 0px;
+ margin: 0px;
+ text-align: left;
+ box-sizing: content-box;
+ text-align: left;
+ position: relative;
+}
+#skills div{
+    float: left;
+    padding: 0px;
+
+}
+#skills ul,li{
+   list-style: none;
+}
+#workExperience h3{
+color: gray;
+}
+#firstBlockOfWorkInformation{
+    width: 500px;
+    padding: 3px;
+}
+#secondBlockOfWorkInformation{
+    width: 500px;
+    padding: 100px;
+}
+#thirdBlockOfWorkInformation{
+    width: 500px;
+    padding: 3px;
+}
+#datesOfExperience{
+float: left;
+width: 245px;
+}
+#informationOfWork{
+float: right;
+width: 245px;
+
+}
+#color{
+background-color: blue;
+color: white;
+}
+.ColorTextHeader{
+    color: blue;
+}
+
+#workExperience{
+    box-sizing: content-box;
+}
+#studies img{
+    width: 3000%;
+}
+.studiesDiv{
+    float: right;
+    width: 30%;
+}
+
+.studiesDivImage{
+    float: left;
+    width: 50%;
+}
+#socialNetworks div,img{
+width: 300px;
+align-content: center;
+margin: 0px;
+}
+#imageOfLanguages{
+    width: 300px;
+}
+
+#informationAdditional{
+float: right;
+width: 35%;
+
+}
+#informationAdditional  h1{
+    background-color: black;
+    color: white;
+}
+
+.bodyDiv{
+    margin: 0 auto;
+     max-width: 1024px; 
+     padding: 20px; 
+     border: 5px #AAAAAA solid; 
+     overflow: hidden;
+}
+#subContentOfTitlteName{
+    position: absolute;
+     bottom: -30px; 
+     left: 300px;
+}
+#titleOfWork{
+    position: absolute; 
+    top: 0; 
+    right: 30px;
+}

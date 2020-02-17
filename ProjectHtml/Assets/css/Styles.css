@@ -1,0 +1,52 @@
+.textarea {
+    width:  750px;
+    height: 150px;
+    background-color: wheat;
+    box-sizing: content-box;  
+    border: 1px solid black;
+  }
+
+  header{
+      
+      float: left;
+      padding: 0px;
+      width: 30%;
+      text-align: right;
+  }
+  nav{
+      float: right;
+      display: block;
+      padding: 0px;
+      width: 40%;
+      text-decoration: none;
+  }
+  .inputArea{
+      width:  750px;
+      height: 30px;
+      margin: 30;
+      border-bottom: black;
+      padding: 0%;
+      background-color: wheat;
+      box-sizing: content-box;  
+      border: 1px solid black;
+  }
+  p{
+    width:  750px;
+      text-align: left;
+      padding: 0%;
+      color: blue;
+      margin: 8px;
+
+  }
+  .button{
+  background-color: orange;
+  color: white;
+   float: left;
+   height: 30px;
+   margin: 10px;
+   margin-left: 30%;
+  }
+
+ 
+
+
