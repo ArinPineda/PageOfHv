@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <title> Hoja de vida</title>
     <link rel="stylesheet" type="text/css" href="../css/stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="../css/normalize.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 
 <body>
@@ -20,7 +22,7 @@
 
                 </div>
                 <div id="titleOfWork">
-                    <img src="../images/fotoportafolio.png">
+                    <img id = "profilepicture" src="../images/fotoportafolio.png">
                     <h1>Titulo del Trabajo</h1>
                 </div>
             </div>
@@ -29,7 +31,10 @@
 
         <section id="heroe" >
             <article id="skills">
+                <img id="moreOrlessInformation" src="../images/less.png" style="width: 20px; float: left;">
                 <h1>HABILIDADES</h1>
+               
+                <div id="subSkills" style="display: block; width:100%; height: 200px; overflow: hidden;transition: all 0.3s ease-in" >
                 <div>
                     <ul style="padding: 0;">
                         <li> > Análisis de datos </li>
@@ -52,10 +57,15 @@
                 <br>
                 <br>
                 <br>
+            </div>
             </article>
 
             <article id="workExperience">
+              <div style = "width: 100%"> 
+                <img id="moreOrlessInformation2" src="../images/less.png" style="width: 20px; float: left;">
+               </div>
                 <h1 style="color: green;" id="titlteExperienceWork">EXPERIENCIA LABORAL</h1>
+                 <div id="subWorkExperience" >
 
                 <div  class="divWorkExperience">
                     <div   class="subDivWorkExperience">
@@ -65,7 +75,15 @@
                     </div>
                     <div>
 
-                        <h3> NOMBRE DE LA EMPRESA</h3>
+                        <h3 id="titleWorkOne" class="popup" > NOMBRE DE LA EMPRESA   <span class="popuptext" id="myPopup"> 
+                            Estuve en esta empresa:
+                            xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+                            xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+                            xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+                            xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+                            xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+                            xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+                            xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx </span></h3>
                         <h1>Cargo ocupado</h1>
                         <p >
                             "Tareas realizadas xxxx xxxx xxxx xxx xxx, xxxxxxx
@@ -90,7 +108,17 @@
                     </div>
                     <div>
 
-                        <h3> NOMBRE DE LA EMPRESA</h3>
+                        <h3  id="titleWorkTwo" class="popup" > NOMBRE DE LA EMPRESA   <span class="popuptext" id="myPopup2"> 
+                            Estuve en esta empresa:
+                            xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+                            xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+                            xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+                            xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+                            xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+                            xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+                            xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+             </span></h3>
                         <h1>Cargo ocupado</h1>
                         <p >
                             "Tareas realizadas xxxx xxxx xxxx xxx xxx, xxxxxxx
@@ -116,7 +144,17 @@
                     </div>
                     <div>
 
-                        <h3> NOMBRE DE LA EMPRESA</h3>
+                        <h3  id="titleWorkThree" class="popup" > NOMBRE DE LA EMPRESA   <span class="popuptext" id="myPopup3"> 
+                            Estuve en esta empresa:
+                            xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+                            xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+                            xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+                            xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+                            xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+                            xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+                            xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+             </span></h3>
                         <h1>Cargo ocupado</h1>
                         <p >
                             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
@@ -135,7 +173,7 @@
 
 
 
-
+            </div>
 
 
 
@@ -145,10 +183,11 @@
             </article>
 
             <article id="studies">
+                <img id="moreOrlessInformation3" src="../images/less.png" style="width: 20px; float: left;">
 
                 <h2 style="color: green;" >ESTUDIOS</h2>
-                <div>
-                    <div>
+                <div >
+                    <div id="subStudies" style=" width:100%; height: 200px; overflow: hidden;transition: all 0.3s ease-in">
 
                         <table style="width: 100%;">
                             <tr>
@@ -163,7 +202,7 @@
                                             <ul style="padding: 0 20px;">
                                                 <li style="text-align: left; color: gray;">Año | Ciudad, Pais </li>
                                                 <li style="text-align: left; color: blue;">Titulo xxxxxxxxxxxxxxxxxxx</li>
-                                                <li style="text-align: left; color:">Universidad o institución</li>
+                                                <li style="text-align: left;">Universidad o institución</li>
                                             </ul>
                                         </li>
                                         <br>
@@ -211,6 +250,7 @@
         <aside id="informationAdditional">
 
             <article id="languages">
+
                 <h1>IDIOMAS</h1>
 
                 <table>
@@ -280,6 +320,12 @@
 
         </aside>
     </div>
+ <script src ="../js/script.js">
+
+
+
+</script>
+
 </body>
 
 
